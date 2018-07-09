@@ -1,3 +1,4 @@
+# A flavor defines the compute, memory, and storage capacity of a Nova node
 - name: Create m2.small flavor
   os_nova_flavor:
      cloud: ospcloud

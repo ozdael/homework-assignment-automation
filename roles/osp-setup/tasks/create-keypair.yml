@@ -1,3 +1,5 @@
+# Set up public/private key pairs to protect the instance at launch time
+# Public/private key pairs work by keeping the public key on the instance and the private key on your local workstation
 - name: Generate key files
   user:
     name: "{{ ansible_env.USER }}"

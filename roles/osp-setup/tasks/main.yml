@@ -1,5 +1,5 @@
 ---
-# tasks file for roles/osp-lab
+# Setup OSP infra              
 - include_tasks: create-image.yml
 - include_tasks: create-flavor.yml
 - include_tasks: create-keypair.yml

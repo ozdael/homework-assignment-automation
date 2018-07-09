@@ -1,0 +1,11 @@
+[bastion_tower]
+bastion.dbed.example.opentlc.com
+
+[workstation]
+workstation-e2a4.rhpds.opentlc.com
+
+[all:vars]
+ansible_user=jaap.dalemans-anatas.com
+ansible_ssh_private_key_file=/Users/jdalemans/.ssh/jdalemans
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+

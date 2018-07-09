@@ -2,7 +2,7 @@
 # vars file for roles/config-tower
 org_name: Default 
 scm_branch: master 
-scm_url: "https://github.com/prakhar1985/homework-assignment-automation.git"
+scm_url: "https://github.com/ozdael/homework-assignment-automation.git"
 proj_name: "Homework Assignment"
 user_name: admin 
 password: r3dh4t1!
@@ -34,7 +34,7 @@ job_template_aws_ssh_keys: "SSH keys three tier app"
 ec2_inventory_source: "Three tier inventory source"
 aws_read_keys: "AWS Access Keys"
 aws_region_name: us-east-1
-tag_filters: "tag:instance_filter=three-tier-app-psrivast@redhat.com"
+tag_filters: "tag:instance_filter=three-tier-app-jaap.dalemans@anatas.com"
 scm_inventory_source: "SCM three tier inventory source"
 path_to_scm_inventory: scm_inventory
 aws_status_playbook: aws_status_check.yml
